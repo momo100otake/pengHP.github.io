@@ -1,0 +1,143 @@
+/* CSSのリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: left;
+  text-transform: none;
+  color: 2c2c53;
+  background-color: #ffffff;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSS */
+header {
+  color: #2c2c53;
+  background-color: #ffffff;
+  height: 120px;
+}
+
+.header-logo {
+  padding-top: 15px;
+  padding-left: 60px;
+}
+
+.header-logo h1  {
+  color: #2c2c53;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.header-logo h1 :link {
+  color: #2c2c53;
+  text-decoration: none;
+}
+
+.header-logo h1 :visited {
+  color: #2c2c53;
+}
+
+.header-logo h1 :hover {
+  color: #cadae7;
+  text-decoration: none;
+}
+
+.site-description {
+  color: gray;
+  font-size: 12px;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+.main-navigation {
+  height: 10px;
+  width: 1170px;
+  margin: 0px 50px;
+  width: 1170px;
+}
+
+.main-navigation li {
+  float: left;
+  padding: 10px 10px;
+  text-decoration: none;
+  color:  #2c2c53;
+  border-bottom: 2px solid #eee; 
+}
+
+.main-navigation li :hover {
+  color: #cadae7;
+}
+
+.main-navigation :link {
+  text-decoration: none;
+  color:  #2c2c53;
+}
+
+.main-navigation :visited {
+  text-decoration: none;
+  color:  #2c2c53;
+}
+
+/* ここまで共通header*/
+
+.contents {
+  padding: 50px 80px;
+  height: 500px;
+}
+
+.section {
+    padding-bottom: 50px;
+}
+
+.section h3 {
+  font-size: 22px;
+  font-weight: 150;
+  border-bottom: 2px #dee7ec;
+  margin-bottom: 15px;
+}
+
+.section p {
+  font-size: 14px;
+  padding-bottom: 50px;
+  font-weight: 200;
+}
+
+.section li {
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+
+.section a {
+    color: #2c2c53;
+    text-decoration: none;
+}
+
+.section a :hover {
+  color: #2c2c53;
+    text-decoration: none;
+}
+
+.section a :visited {
+  color: #2c2c53;
+    text-decoration: none;
+}
+
+.copyright {
+  color: #2c2c53;
+}
