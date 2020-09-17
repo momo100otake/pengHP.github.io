@@ -26,70 +26,32 @@ li {
 }
 
 /* ここからCSS */
-header {
-  color: #2c2c53;
-  background-color: #ffffff;
-  height: 120px;
+/* ====================================================================================================== */
+/*-- Navigation --*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background: rgba(0,0,0,1)!important;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
-
-.header-logo {
-  padding-top: 15px;
-  padding-left: 60px;
+.navbar-brand  img{
+  height: 4rem;
 }
-
-.header-logo h1  {
-  color: #2c2c53;
-  font-size: 36px;
-  font-weight: 500;
+.navbar-nav li {
+  padding-right: .8rem;
 }
-
-.header-logo h1 :link {
-  color: #2c2c53;
-  text-decoration: none;
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-top: .8rem;
 }
-
-.header-logo h1 :visited {
-  color: #2c2c53;
-}
-
-.header-logo h1 :hover {
-  color: #cadae7;
-  text-decoration: none;
-}
-
-.site-description {
-  color: gray;
-  font-size: 12px;
-  font-weight: 100;
-  margin-top: 10px;
-}
-
-.main-navigation {
-  width: 1170px;
-  margin-bottom: 30px;
-  margin-left:50px;
-}
-
-.main-navigation li {
-  float: left;
-  padding: 10px 10px;
-  text-decoration: none;
-  color:  #2c2c53;
-  border-bottom: 2px solid #eee; 
-}
-
-.main-navigation li :hover {
-  color: #cadae7;
-}
-
-.main-navigation :link {
-  text-decoration: none;
-  color:  #2c2c53;
-}
-
-.main-navigation :visited {
-  text-decoration: none;
-  color:  #2c2c53;
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #6e4242;
 }
 
 
